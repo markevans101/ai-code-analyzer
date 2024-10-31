@@ -1,0 +1,14 @@
+from langchain_community.llms import Together
+
+API_KEY = "tok_123abc"  # Put your actual Together API key here instead of tok_123abc
+
+llm = Together(
+    model="mistralai/Mixtral-8x7B-Instruct-v0.1",
+    together_api_key=API_KEY
+)
+
+try:
+    response = llm.invoke("What is the capital of France?")
+    print("Response:", response)
+except Exception as e:
+    print("Error:", e)

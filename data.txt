@@ -1,0 +1,4 @@
+Paris is the capital of France.
+London is the capital of England.
+Berlin is the capital of Germany.
+Rome is the capital of Italy.
